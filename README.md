@@ -115,6 +115,18 @@ multimeter = nest.Create(
 
 ---
 
+>## [随机函数(random module)](https://nest-simulator.readthedocs.io/en/stable/ref_material/pynest_api/nest.random.hl_api_random.html)
+>>`nest.random`
+
+- exponential(beta=1.0)
+- lognormal(mean=0.0, std=1.0)
+- normal(mean=0.0, std=1.0)\
+用法: `nest.random.normal(mean=, std=)`  
+Returns: Object yielding values drawn from the distribution
+
+- uniform(mean=0.0, std=1.0)
+- uniform_int(max)
+
 
 ## List of Synapse Models
 
